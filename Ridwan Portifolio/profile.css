@@ -1,0 +1,265 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.Header{
+    border-top-style:solid;
+    border-bottom: solid;
+    border-width: 0px 0px 1px 0px;
+height: 80px;
+
+}
+.left-head{
+    float: left;
+    margin-left:200px;
+    margin-right:200px;
+    
+    }
+.nav{
+    list-style-type: none;
+    margin-top: 10px;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;  
+   
+}
+.nav  li {
+    float: left;
+    padding-left: 20px;
+}
+
+.nav li a{
+    color:black;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    border-radius: 40px;
+   
+}
+
+.nav li a:hover{
+    color:white;
+    background-color:#eca7ee;
+    
+}
+#pp{
+    padding: 0px;
+    text-align: center;
+    font-family: Rockwell Extra Bold;
+    font-size: 20px;
+    color:#d640db;
+}
+   
+h2{
+    text-align: center;
+}
+.team{
+    
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    text-align: center;
+
+    background-color:white;
+}
+.ps{
+    margin-bottom: 40%;
+}
+.ps a{
+    display: inline-block;
+    margin: 0 30px;
+    width: 160px;
+    height: 160;
+    overflow: hidden;
+    
+}
+img {
+    width: 150px;
+}
+
+.team p{
+  
+   display: inline-block;
+    margin: 0 30px;
+    width: 160px;
+    height: 160;
+    overflow: hidden;
+    font-family: Lucida Handwriting;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+nav ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+nav li{
+    list-style: none;
+    padding: 1em 0;
+}
+nav li a {
+    color: cadetblue;
+    font-weight: 700;
+    opacity: 0.6;
+    text-decoration: none;
+    transition: 0.3s;
+}
+nav li a :hover{
+    opacity: 1;
+}
+
+.hero{
+    max-width: 200px;    
+    margin: 0 auto;
+    text-align: center;
+}
+.hero img{
+    
+
+    width: 200px;
+    border-radius: 100px;
+}
+.hero h3{
+    font-size: 0.5cm;;
+  
+}
+.hero p{
+    font-weight: 300;
+    line-height: 1.8em;
+    color: lightgray;
+}
+
+
+
+footer{
+    height: 120px;
+    grid-area: footer;
+    background-color: rgb(26, 26, 26);
+    width: 100%;
+    
+}
+footer ul{
+   
+    margin: 2em auto;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+   
+}
+footer ul li {
+    list-style: none;
+    align-self: flex-end;
+    padding: 10px;
+    
+}
+footer ul a {
+    text-decoration: none;
+    color: #c1c6ce;
+  
+}
+
+#fm{
+  
+    width: 30px;
+ text-align: center;
+}
+#cc{
+   font-family: 'Times New Roman', Times, serif;
+    color: antiquewhite;
+    font-size: 15px;
+}
+.footer p{
+
+    font-family: Eras Bold ITC;
+    font-weight: 700;
+   display: inline-block;
+    margin: 0 30px;
+    width: 170px;
+    height: 160;
+    overflow: hidden;  
+    font-size: 15px;
+}
+#ull{
+    height: 100px;
+   
+}
+
+
+.child{
+    float: left;
+   margin-left: 350px;
+}
+
+    
+.man{
+    border-radius: 200px;
+    margin-top: 10px;
+    height: 240px;
+    width: 240px;
+    border: solid;
+    border-color: #d640db;
+    margin-left: 90px;
+}
+.text{
+    margin-top: 0%;
+    font-family: Calibri;
+    color:black;
+    font-size: 17px;
+   
+}
+.Name{
+    font-size: 18px;
+    font-family: Lucida Handwriting;
+    font-weight:600;
+    color:#cc1d1d;
+}
+.center{
+    width: 100%;
+    background-image:url(ss.jpg);
+    background-size: 100%;
+    height: 270px;
+    padding: 20px 5px 3px 1px;
+    background-color: #8f8f8f;
+   
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    color:white;
+    font-weight: 700;
+    background: #d640db;
+    padding: 0.5em 2em;
+    border-radius: 40px;
+    margin: 1em 0;
+    transition: 0.3s;
+ 
+}
+.btn :hover{
+    box-shadow: 0 10px 50px rgba(188, 197, 216, 1);
+}
+.btn1{
+    display: inline-block;
+    text-decoration: none;
+    color:white;
+    font-weight: 700;
+    background: grey;
+    padding: 0.5em 2em;
+    border-radius: 40px;
+    margin: 1em 0;
+    transition: 0.3s;
+   
+}
+.btn1 :hover{
+    box-shadow: 0 10px 50px rgba(188, 197, 216, 1);
+}
+#hh{
+    font-family:MV Boli;
+    color: #d640db
+}
+
+
+
